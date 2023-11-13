@@ -1,0 +1,232 @@
+/* .notify {
+    margin-left: 25%;
+    margin-right: 25%;
+} */
+
+.active {
+    border-bottom: 1px solid black;
+}
+
+
+@media (min-width: 900px) {
+  
+  h1 {
+    margin-top: 5% !important;
+  }
+    form, .accordion-item, .about, .promo {
+     
+        padding-left: 25% !important;
+        padding-right: 25% !important;
+        margin-bottom: 5% !important;
+    }
+
+    .form-control {
+        margin-bottom: 2% !important;
+    }
+} 
+
+@media (max-width: 899px) { 
+  form, .accordion-item, .about, .promo {
+     
+    padding-left: 1% !important;
+    padding-right: 1% !important;
+    margin-bottom: 3% !important;
+}
+}
+/* Loader */
+
+.lds-facebook {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    margin-top: 20% !important;
+    margin-left: 50% !important;
+  }
+  .lds-facebook div {
+    display: inline-block;
+    position: absolute;
+    left: 8px;
+    width: 16px;
+    background: #cef;
+    animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+  }
+  .lds-facebook div:nth-child(1) {
+    left: 8px;
+    animation-delay: -0.24s;
+  }
+  .lds-facebook div:nth-child(2) {
+    left: 32px;
+    animation-delay: -0.12s;
+  }
+  .lds-facebook div:nth-child(3) {
+    left: 56px;
+    animation-delay: 0;
+  }
+  @keyframes lds-facebook {
+    0% {
+      top: 8px;
+      height: 64px;
+    }
+    50%, 100% {
+      top: 24px;
+      height: 32px;
+    }
+  }
+
+  /* Loader ends   */
+
+/*  Login  */
+.form-signin {
+  margin-top: 5%;
+  
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  
+  margin-bottom: 5%;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  /* margin-bottom: 10px; */
+  margin-bottom: 5%;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+/* Login ends  */ 
+
+
+#err {
+  color: red;
+} 
+
+.err {
+  color: red;
+
+}
+
+.insta {
+  color: #5c32a8;
+}
+
+
+/* Logout */
+#logout {
+  cursor: pointer;
+}
+
+/*  userinfo  */ 
+
+.userinfo > .nav-link {
+  color: #000 !important;
+} 
+
+/* Home picture */
+
+.picture {
+background: url('./src/assets/linkedin.png') center center no-repeat;
+background-size: cover;
+
+}
+
+.picture h1, p {
+  color: #000 !important;
+}
+
+.jumb {
+  min-height: 50vh;
+}
+
+
+
+/* Price icons */
+
+.priceicons {
+  font-size: 30px;
+}
+
+.pricemenu {
+  list-style: none;
+}
+
+.green {
+  color: green;
+} 
+.red {
+  color: red;
+}
+
+/* My contacts icons */
+.mycontacts .fa-telegram {
+  font-size: 30px;
+  color: lightblue;
+} 
+
+.mycontacts .fa-linkedin {
+  font-size: 30px;
+  color: blue;
+}
+
+.mycontacts .fa-envelope {
+  font-size: 30px;
+  color: black;
+}
+
+.mycontacts {
+  margin: 1%;
+}
+
+/*  Agree check */
+.agree {
+  padding-top: 1%;
+  padding-bottom: 1%;
+} 
+
+
+/* Share buttons  */
+
+.sharefacebook {
+  font-size: 40px;
+} 
+
+
+/*  Promo landing  */
+
+.promo {
+padding-top: 3%;
+}
+
+.promolink {
+  color: #fff;
+  text-decoration: none;
+}
+
+.promolink:hover {
+  color: #fff;
+  text-decoration: none;
+} 
+
+
+/* Notfound  */
+
+.notfound {
+  font-size: 100px;
+}
+
+/*  Small size Landing */
+
+@media (max-width: 900px) {
+  .land {
+    margin-top: 3% !important;
+  }
+}
