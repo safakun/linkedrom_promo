@@ -167,6 +167,8 @@ background-size: cover;
 }
 
 /* My contacts icons */
+
+
 .mycontacts .fa-telegram {
   font-size: 30px;
   color: lightblue;
@@ -183,7 +185,9 @@ background-size: cover;
 }
 
 .mycontacts {
+  text-align: center;
   margin: 1%;
+  align-items: center;
 }
 
 /*  Agree check */

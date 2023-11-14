@@ -1,4 +1,5 @@
 import  {NavLink, Link }  from "react-router-dom"
+import { Mycontacts } from "./Mycontacts"
 
 
 export const Navbar = () => {
@@ -28,11 +29,17 @@ export const Navbar = () => {
          data-toggle="collapse" data-target=".navbar-collapse"
          className="nav-link" to="/tarifs"><i className="fa-solid fa-dollar"></i> Tarifs</NavLink>
        </li>
+       <li className="nav-item" >
+         <NavLink 
+         data-toggle="collapse" data-target=".navbar-collapse"
+         className="nav-link" to="/about"><i className="fa-solid fa-info-circle"></i> About LinkeDrom</NavLink>
+       </li>
         
       
         
       </ul>
 
+<Mycontacts />
     
     </div>
   </div>

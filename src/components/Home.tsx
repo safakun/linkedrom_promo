@@ -1,7 +1,11 @@
 import { Link } from "react-router-dom"
 
 
+
+
 export const Home = () => {
+
+    document.title = 'Home | LinkeDrom'
 
     return (
         <>
@@ -13,7 +17,7 @@ export const Home = () => {
 
        <div className="col-md-4 text-center land">
        <div className="d-grid gap-2">
-        <button className="btn btn-primary btn-lg">Order LinkeDrom now!</button>
+        <Link to="/order" className="btn btn-success btn-lg" type="button"><i className="fa-solid fa-pencil"></i> Order LinkeDrom now!</Link>
         </div>
         </div>
 
@@ -21,12 +25,27 @@ export const Home = () => {
         <div className="d-grid gap-2">
        <Link
           to='/about'
-          className="btn btn-lg btn-primary" type="button"><i className="fa-solid fa-unlock"></i> Find more about LinkeDrom</Link>
+          className="btn btn-lg btn-primary" type="button"><i className="fa-solid fa-search"></i> Find more about LinkeDrom</Link>
+       </div>
+        </div>
+
+        <div className="col-md-4 text-center land">
+        <div className="d-grid gap-2">
+       <Link
+          to='/tarifs'
+          className="btn btn-lg btn-warning" type="button"><i className="fa-solid fa-check"></i> Check tarifs</Link>
        </div>
         </div>
 
         
+       
+       
         </div>
+
+
+
+
+       
 
             </div>
             </div>
